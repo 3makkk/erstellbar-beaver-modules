@@ -1,0 +1,15 @@
+{
+  "name": "erstellbar-beaver-modules",
+  "authors": [
+    "Sven Friedemann <sven@erstellbar.de>"
+  ],
+  "description": "Erstellbar Beaver modules",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "https://erstellbar.de",
+  "private": true,
+  "dependencies": {
+    "slick-carousel": "slick.js#^1.5.9"
+  }
+}

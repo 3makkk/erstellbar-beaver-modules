@@ -1,0 +1,410 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Erstellbar Beaver Modules\n"
+"POT-Creation-Date: 2016-03-10 10:54+0100\n"
+"PO-Revision-Date: 2016-03-10 11:18+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: last-posts/last-posts.php:19 last-posts/last-posts.php:20
+msgid "Last Posts"
+msgstr "Letzte Beiträge"
+
+#: last-posts/last-posts.php:21 slick-slider/slick-slider.php:21
+msgid "Erstellbar Modules"
+msgstr "Erstellbar Modules"
+
+#: last-posts/last-posts.php:57 slick-slider/slick-slider.php:68
+msgid "Content"
+msgstr "Inhalt"
+
+#: last-posts/last-posts.php:60
+msgid "General"
+msgstr "Allgemein"
+
+#: last-posts/last-posts.php:64
+msgid "Number of posts"
+msgstr "Anzahl der Beiträge"
+
+#: last-posts/last-posts.php:69 slick-slider/slick-slider.php:104
+msgid "Post Settings"
+msgstr "Beitragseinstellungen"
+
+#: slick-slider/slick-slider.php:19 slick-slider/slick-slider.php:20
+msgid "Slick Slider"
+msgstr "Slick Slider"
+
+#: slick-slider/slick-slider.php:71
+msgid "Content Settings"
+msgstr "Inhaltseinstellungen"
+
+#: slick-slider/slick-slider.php:74
+msgid "Slider Type"
+msgstr "Slider Typ"
+
+#: slick-slider/slick-slider.php:78
+msgid "Posts"
+msgstr "Beiträge"
+
+#: slick-slider/slick-slider.php:79
+msgid "Images"
+msgstr "Bilder"
+
+#: slick-slider/slick-slider.php:80
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: slick-slider/slick-slider.php:98
+msgid "Slider Gallery"
+msgstr "Slider Galerie"
+
+#: slick-slider/slick-slider.php:108
+msgid "Custom Slider"
+msgstr "Benutzerdefinierter Slider"
+
+#: slick-slider/slick-slider.php:111
+msgid "Slide"
+msgstr "Slide"
+
+#: slick-slider/slick-slider.php:120
+msgid "Slider Settings"
+msgstr "Slider Einstellungen"
+
+#: slick-slider/slick-slider.php:123
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: slick-slider/slick-slider.php:126
+msgid "Accessibility"
+msgstr "Zugänglichkeit"
+
+#: slick-slider/slick-slider.php:129 slick-slider/slick-slider.php:140
+#: slick-slider/slick-slider.php:151 slick-slider/slick-slider.php:171
+#: slick-slider/slick-slider.php:197 slick-slider/slick-slider.php:217
+#: slick-slider/slick-slider.php:239 slick-slider/slick-slider.php:249
+#: slick-slider/slick-slider.php:259 slick-slider/slick-slider.php:269
+#: slick-slider/slick-slider.php:289 slick-slider/slick-slider.php:299
+#: slick-slider/slick-slider.php:309 slick-slider/slick-slider.php:360
+#: slick-slider/slick-slider.php:370 slick-slider/slick-slider.php:380
+#: slick-slider/slick-slider.php:396 slick-slider/slick-slider.php:406
+#: slick-slider/slick-slider.php:416 slick-slider/slick-slider.php:426
+#: slick-slider/slick-slider.php:436 slick-slider/slick-slider.php:446
+#: slick-slider/slick-slider.php:456
+msgid "Yes"
+msgstr "Ja"
+
+#: slick-slider/slick-slider.php:130 slick-slider/slick-slider.php:141
+#: slick-slider/slick-slider.php:152 slick-slider/slick-slider.php:172
+#: slick-slider/slick-slider.php:198 slick-slider/slick-slider.php:218
+#: slick-slider/slick-slider.php:240 slick-slider/slick-slider.php:250
+#: slick-slider/slick-slider.php:260 slick-slider/slick-slider.php:270
+#: slick-slider/slick-slider.php:290 slick-slider/slick-slider.php:300
+#: slick-slider/slick-slider.php:310 slick-slider/slick-slider.php:361
+#: slick-slider/slick-slider.php:371 slick-slider/slick-slider.php:381
+#: slick-slider/slick-slider.php:397 slick-slider/slick-slider.php:407
+#: slick-slider/slick-slider.php:417 slick-slider/slick-slider.php:427
+#: slick-slider/slick-slider.php:437 slick-slider/slick-slider.php:447
+#: slick-slider/slick-slider.php:457
+msgid "No"
+msgstr "Nein"
+
+#: slick-slider/slick-slider.php:133
+msgid "Enables tabbing and arrow key navigation"
+msgstr "Aktiviert die Navigation per Tabulatortaste und Pfeiltasten"
+
+#: slick-slider/slick-slider.php:137
+msgid "Adaptive Height"
+msgstr "Adaptive Höhe"
+
+#: slick-slider/slick-slider.php:144
+msgid "Adapts slider height to the current slide"
+msgstr "Passt Sliderhöhe auf aktuellen Slide an"
+
+#: slick-slider/slick-slider.php:148
+msgid "Autoplay"
+msgstr "Automatische Wiedergabe"
+
+#: slick-slider/slick-slider.php:155
+msgid "Enables auto play of slides"
+msgstr "Aktiviert die automatische Wiedergabe der Slides"
+
+#: slick-slider/slick-slider.php:162
+msgid "Autoplay Speed"
+msgstr "Automatsche Wiedergabegeschwindingkeit"
+
+#: slick-slider/slick-slider.php:165
+msgid "Auto play change interval"
+msgstr " Wechselintervall der automatische Wiedergabe"
+
+#: slick-slider/slick-slider.php:168
+msgid "Center Mode"
+msgstr "Center Mode"
+
+#: slick-slider/slick-slider.php:179
+msgid ""
+"Enables centered view with partial prev/next slides. Use with odd numbered "
+"slidesToShow counts."
+msgstr ""
+"Aktiviert den Center Mode mit teilansichten der vorherigen und nächsten "
+"Slides. Verwendees mit einer ungegraden slideToShow Anzahl."
+
+#: slick-slider/slick-slider.php:182
+msgid "Center Padding"
+msgstr "Center Padding"
+
+#: slick-slider/slick-slider.php:185
+msgid "Side padding when in center mode. (px or %)"
+msgstr "Seitliches Padding im Center Mode (px oder %)"
+
+#: slick-slider/slick-slider.php:188
+msgid "CSS Ease"
+msgstr "CSS Ease"
+
+#: slick-slider/slick-slider.php:191
+msgid "CSS3 easing"
+msgstr "CSS3 easing"
+
+#: slick-slider/slick-slider.php:201
+msgid "Current slide indicator dots"
+msgstr "Aktueller Slide Punktindikatoren"
+
+#: slick-slider/slick-slider.php:208
+msgid "Dots Class"
+msgstr "Punktklasse"
+
+#: slick-slider/slick-slider.php:214
+msgid "Draggable"
+msgstr "Draggable"
+
+#: slick-slider/slick-slider.php:221
+msgid "Enables desktop dragging"
+msgstr "Aktiviert Desktop Dragging"
+
+#: slick-slider/slick-slider.php:227
+msgid "animate() fallback easing"
+msgstr "animale() ausweich easing"
+
+#: slick-slider/slick-slider.php:230
+msgid "Edge Friction"
+msgstr "Edge Friction"
+
+#: slick-slider/slick-slider.php:233
+msgid "Resistance when swiping edges of non-infinite carousels"
+msgstr "Wiederstand beim Kantenziehen bei finitiven Karusells"
+
+#: slick-slider/slick-slider.php:246
+msgid "Arrows"
+msgstr "Pfeile"
+
+#: slick-slider/slick-slider.php:253
+msgid "Enable Next/Prev arrows"
+msgstr "Aktivierte nächster/vorhher Pfeile"
+
+#: slick-slider/slick-slider.php:256
+msgid "Mobile First"
+msgstr "Mobile First"
+
+#: slick-slider/slick-slider.php:263
+msgid "Responsive settings use mobile first calculation"
+msgstr "Responsive Einstellungen nutzen mobile first kalkulation"
+
+#: slick-slider/slick-slider.php:266
+msgid "Infinite"
+msgstr "Unendlich"
+
+#: slick-slider/slick-slider.php:273
+msgid "Infinite looping"
+msgstr "Endlosschleife"
+
+#: slick-slider/slick-slider.php:276
+msgid "Lazy Load"
+msgstr "Lazy Load"
+
+#: slick-slider/slick-slider.php:283
+msgid ""
+"Accepts 'ondemand' or 'progressive' for lazy load technique. 'ondemand' will "
+"load the image as soon as you slide to it, 'progressive' loads one image "
+"after the other when the page loads."
+msgstr ""
+
+#: slick-slider/slick-slider.php:286
+msgid "Pause on focus"
+msgstr "Pause bei fokus"
+
+#: slick-slider/slick-slider.php:293
+msgid "Pauses autoplay when slider is focussed"
+msgstr "Pauserit die automatische Wiedergabe wenn der Slider fokussiert ist"
+
+#: slick-slider/slick-slider.php:296
+msgid "Pause on hover"
+msgstr "Pause bei hover"
+
+#: slick-slider/slick-slider.php:303
+msgid "Pauses autoplay on hover"
+msgstr "Pausiert die automatische Wiedergabe bei hover"
+
+#: slick-slider/slick-slider.php:306
+msgid "Pause on dots hover"
+msgstr "Pause bei Punkt-hover"
+
+#: slick-slider/slick-slider.php:316
+msgid "Respond to"
+msgstr "Antworten zu"
+
+#: slick-slider/slick-slider.php:324
+msgid ""
+"Width that responsive object responds to. Can be 'window', 'slider' or "
+"'min' (the smaller of the two)."
+msgstr ""
+"Breite, zu dem das respnsive Objekt reagiert. Kann 'window', 'slider' oder "
+"'min'(das kleinere von beiden) sein."
+
+#: slick-slider/slick-slider.php:327
+msgid "Rows"
+msgstr "Zeile"
+
+#: slick-slider/slick-slider.php:330
+msgid ""
+"Setting this to more than 1 initializes grid mode. Use slidesPerRow to set "
+"how many slides should be in each row."
+msgstr ""
+"Wird dies auf mehr als 1 gestellt, initialisiert es den Grid Modus. Benutze "
+"slidesPerRow um einzustellen wie viele slides in einer Zeile sind."
+
+#: slick-slider/slick-slider.php:333
+msgid "Slides per row"
+msgstr "Slides pro Zeile"
+
+#: slick-slider/slick-slider.php:336
+msgid ""
+"With grid mode intialized via the rows option, this sets how many slides are "
+"in each grid row."
+msgstr ""
+"Mit dem initialisierten Grid Modus via der Option Zelen, stellt das ein wie "
+"viele Slides pro Zeile angezeigt werden."
+
+#: slick-slider/slick-slider.php:339
+msgid "Slides to show"
+msgstr "Anzahl der Slides"
+
+#: slick-slider/slick-slider.php:342
+msgid "# of slides to show at a time"
+msgstr "Anzahl der Slides die angezeigt werden"
+
+#: slick-slider/slick-slider.php:345
+msgid "Slides to scroll"
+msgstr "Slides beim Scroll"
+
+#: slick-slider/slick-slider.php:348
+msgid "# of slides to scroll at a time"
+msgstr "Anzahl der Slides beim Scroll"
+
+#: slick-slider/slick-slider.php:351
+msgid "Speed"
+msgstr "Geschwindigkeit"
+
+#: slick-slider/slick-slider.php:354
+msgid "Transition speed"
+msgstr "Übergangsgeschwindigkeit"
+
+#: slick-slider/slick-slider.php:357
+msgid "Swipe"
+msgstr "Swipe"
+
+#: slick-slider/slick-slider.php:364
+msgid "Enables touch swipe"
+msgstr "Aktiviert touch swipe"
+
+#: slick-slider/slick-slider.php:367
+msgid "Swipe to swipe"
+msgstr "Swipe to swipe"
+
+#: slick-slider/slick-slider.php:377
+msgid "Touch Move"
+msgstr "touch move"
+
+#: slick-slider/slick-slider.php:384
+msgid "Enables slide moving with touch"
+msgstr "Aktiviert slide bewegung bei touch"
+
+#: slick-slider/slick-slider.php:387
+msgid "Touch threshold"
+msgstr "touch Schwellenwert"
+
+#: slick-slider/slick-slider.php:390
+msgid ""
+"To advance slides, the user must swipe a length of (1/touchThreshold) * the "
+"width of the slider."
+msgstr ""
+"To advance slides, the user must swipe a length of (1/touchThreshold) * the "
+"width of the slider."
+
+#: slick-slider/slick-slider.php:393
+msgid "Use CSS"
+msgstr "Css benutzen"
+
+#: slick-slider/slick-slider.php:400
+msgid "Enable/Disable CSS Transitions"
+msgstr "Aktiviert/Deaktiviert CSS Transitions"
+
+#: slick-slider/slick-slider.php:410
+msgid "Enable/Disable CSS Transforms"
+msgstr "Aktiviert/Deaktiviert CSS Transforms"
+
+#: slick-slider/slick-slider.php:413
+msgid "Variable width"
+msgstr "Variable Breite"
+
+#: slick-slider/slick-slider.php:420
+msgid "Disables automatic slide width calculation"
+msgstr "Deaktiviert automatische berechnung der Sliderbreite"
+
+#: slick-slider/slick-slider.php:423
+msgid "Vertical"
+msgstr "Vertikal"
+
+#: slick-slider/slick-slider.php:430
+msgid "Vertical slide direction"
+msgstr "Vertikale Slide-richtung"
+
+#: slick-slider/slick-slider.php:433
+msgid "Vertical swiping"
+msgstr "vertikales swipen"
+
+#: slick-slider/slick-slider.php:440
+msgid "Changes swipe direction to vertical"
+msgstr "Ändert die Swipe-Richtung zu vertikal"
+
+#: slick-slider/slick-slider.php:443
+msgid "RTL"
+msgstr "RTL"
+
+#: slick-slider/slick-slider.php:450
+msgid "Change the slider's direction to become right-to-left"
+msgstr "Ändert die Slider-Richgung von rechts auf links"
+
+#: slick-slider/slick-slider.php:453
+msgid "Wait for animate"
+msgstr "Warte auf animate"
+
+#: slick-slider/slick-slider.php:460
+msgid "Ignores requests to advance the slide while animating"
+msgstr "Ignoriert Anfragen zur verbesserung des Slides bei Animation"
+
+#: slick-slider/slick-slider.php:463
+msgid "Z Index"
+msgstr "Z Index"
+
+#: slick-slider/slick-slider.php:466
+msgid "Set the zIndex values for slides, useful for IE9 and lower"
+msgstr "Setzt den zIndex Wert, nützlich bei IE9 und darunter"
