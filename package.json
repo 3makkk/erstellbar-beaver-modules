@@ -1,11 +1,8 @@
 {
   "name": "erstellbar-beaver-modules",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Erstellbar Beaver modules",
   "main": "gulp.js",
-  "directories": {
-    "example": "example"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

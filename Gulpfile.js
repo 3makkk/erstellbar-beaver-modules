@@ -20,4 +20,4 @@ gulp.task('copy', function() {
 
 
 
-gulp.task('default', ['copy', 'copy']);
+gulp.task('default', ['copy']);

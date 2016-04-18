@@ -3,7 +3,7 @@
  * Plugin Name: Erstellbar -  Beaver Modules
  * Plugin URI: http://www.erstellbar.de
  * Description: Erstellbar plugin for custom builder modules.
- * Version: 1.0
+ * Version: 1.1
  * Author: Sven Friedemann
  * Author URI: http://erstellbar.de
  */
