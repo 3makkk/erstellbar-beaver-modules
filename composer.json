@@ -1,0 +1,13 @@
+{
+    "name": "erstellbar/erstellbar-beaver-modules",
+    "description": "Erstellbar Beaver Modules",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sven Friedemann",
+            "email": "sven@erstellbar.de"
+        }
+    ],
+    "require": {}
+}
