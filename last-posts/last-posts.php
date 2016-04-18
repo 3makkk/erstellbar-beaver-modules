@@ -59,10 +59,34 @@ FLBuilder::register_module('ErstellbarLastPosts', array(
             'general' => array(
                'label' => __('General', ERSTELLBAR_SLUG),
                'fields' => array(
+                   'show_title' => array(
+                       'type' => 'select',
+                       'label' => 'Show Title?',
+                       'options' => array(
+                           false => __('No', ERSTELLBAR_SLUG),
+                           true => __('Yes', ERSTELLBAR_SLUG),
+                       ),
+                       'toggle' => array(
+                           true => array('fields' => array('title_text')),
+                           false => array()
+                       )
+                   ),
+                   'title_text' => array(
+                       'type' => 'text',
+                       'label' => __('Title text', ERSTELLBAR_SLUG)
+                   ),
                    'count' => array(
                        'type' => 'text',
                        'label' => __('Number of posts', ERSTELLBAR_SLUG)
-                   )
+                   ),
+                   'show_excerpt' => array(
+                       'type' => 'select',
+                       'label' => 'Show Excerpt?',
+                       'options' => array(
+                           false => __('No', ERSTELLBAR_SLUG),
+                           true => __('Yes', ERSTELLBAR_SLUG),
+                       )
+                   ),
                )
             ),
             'posts' => array(
