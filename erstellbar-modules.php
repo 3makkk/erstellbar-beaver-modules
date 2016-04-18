@@ -18,6 +18,8 @@ function fl_load_module_examples() {
 	if ( class_exists( 'FLBuilder' ) ) {
 	    require_once 'slick-slider/slick-slider.php';
 		require_once 'last-posts/last-posts.php';
+        require_once 'button/button.php';
+        require_once 'callout/callout.php';
 	}
 }
 add_action( 'init', 'fl_load_module_examples' );
