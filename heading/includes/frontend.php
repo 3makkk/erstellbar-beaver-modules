@@ -5,7 +5,6 @@ $tag = $settings->heading_tag ? $settings->heading_tag : 'h1';
 $align = $settings->heading_align != '' ? $settings->heading_align : '';
 $has_ruler = $settings->has_ruler == 'yes' ? 'ruler' : '';
 $has_subtitle = $settings->has_subtitle == 'yes' ? true : false;
-$subtitle_position = $settings->subtitle_position ? $settings->subtitle_position : 'above';
 $color = $settings->color;
 
 if ($has_subtitle) {
