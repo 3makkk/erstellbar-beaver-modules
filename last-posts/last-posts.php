@@ -17,7 +17,7 @@ class ErstellbarLastPosts extends FLBuilderModule {
     {
         parent::__construct(array(
             'name'          => __('Last Posts', 'fl-builder'),
-            'help'   => __('Last Posts', 'fl-builder'),
+            'description'   => __('Last Posts', 'fl-builder'),
             'category'		=> __('Erstellbar Modules', 'fl-builder'),
             'dir'           => ERSTELLBAR_MODULES_DIR . 'last-posts/',
             'url'           => ERSTELLBAR_MODULES_URL . 'last-posts/',

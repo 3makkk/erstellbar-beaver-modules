@@ -17,7 +17,7 @@ class ErstellbarSlickSlider extends FLBuilderModule {
     {
         parent::__construct(array(
             'name'          => __('Slick Slider', 'fl-builder'),
-            'help'   => __('Slick Slider', 'fl-builder'),
+            'description'   => __('Slick Slider', 'fl-builder'),
             'category'		=> __('Erstellbar Modules', 'fl-builder'),
             'dir'           => ERSTELLBAR_MODULES_DIR . 'slick-slider/',
             'url'           => ERSTELLBAR_MODULES_URL . 'slick-slider/',
