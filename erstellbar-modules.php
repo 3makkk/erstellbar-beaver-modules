@@ -20,6 +20,7 @@ function fl_load_module_examples() {
 		require_once 'last-posts/last-posts.php';
         require_once 'button/button.php';
         require_once 'callout/callout.php';
+        require_once 'heading/heading.php';
 	}
 }
 add_action( 'init', 'fl_load_module_examples' );
