@@ -24,12 +24,11 @@ class ErstellbarButton extends FLBuilderModule {
 
 }
 
-add_action( 'fl-builder_custom_field_type', 'fl_custom_field_type', 10, 3 );
+add_action( 'fl_builder_control_page-select', 'fl_page_select', 1, 4 );
 
-function fl_custom_field_type( $field, $name, $value ){
+function fl_page_select( $name, $value, $field, $settings ){
+	?>
 
-	if( $field['type']  == 'link_page' ){ ?>
-	
 	    <select name="<?php echo $name; ?>"<?php if(isset($field['class'])) echo ' class="'. $field['class'] .'"'; ?>>
 	        <option value="none" <?php selected($value, 'none'); ?>>----</option>
 	        <?php foreach( get_pages() as $page ) : ?>
@@ -38,8 +37,6 @@ function fl_custom_field_type( $field, $name, $value ){
 	    </select>
 
 	<?php
-	}
-
 }
 
 /**
@@ -144,7 +141,7 @@ FLBuilder::register_module('ErstellbarButton', array(
 						'label'     => __( 'Link of the Button', ERSTELLBAR_SLUG ),
 					),
 					'button_page_link'  => array(
-						'type'      => 'link_page',
+						'type'      => 'page-select',
 						'label'     => __( 'Page', ERSTELLBAR_SLUG ),
 						'description'     => __( 'Select a page.', ERSTELLBAR_SLUG ),
 					),
