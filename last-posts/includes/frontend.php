@@ -1,4 +1,7 @@
-<?php $query = FLBuilderLoop::query($settings); ?>
+<?php
+$settings->posts_per_page = $settings->count;
+$query = FLBuilderLoop::query($settings);
+?>
 
     <?php if ($query->have_posts()): ?>
         <?php do_action(ERSTELLBAR_SLUG . '_before_newsflash'); ?>
