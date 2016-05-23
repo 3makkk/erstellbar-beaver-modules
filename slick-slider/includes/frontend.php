@@ -24,14 +24,15 @@
         <?php if ($query->have_posts()): ?>
                 <?php while ($query->have_posts()): $query->the_post(); ?>
                     <div class="erstellbar-slides">
+
                         <?php do_action(ERSTELLBAR_SLUG. '_before_slick_slider_image'); ?>
-
+                        <a href="<?php the_permalink()?>">
                         <?php the_post_thumbnail(); ?>
-
+                        </a>
                         <?php do_action(ERSTELLBAR_SLUG. '_before_slick_slider_title'); ?>
-
+                        <a href="<?php the_permalink()?>">
                         <h5 class="erstellbar-slides-title"><?php the_title()?></h5>
-
+                        </a>
                         <?php do_action(ERSTELLBAR_SLUG. '_before_slick_slider_content'); ?>
 
                         <?php the_content()?>
