@@ -58,6 +58,11 @@ class ErstellbarSlickSlider extends FLBuilderModule {
 
         return json_encode($sliderOptions);
     }
+
+    public function permalink(WP_Post $post) {
+        
+        return apply_filters(ERSTELLBAR_SLUG. '_slider_item_permalink', get_permalink($post), $post, $this->settings);
+    }
 }
 
 /**
