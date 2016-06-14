@@ -27,6 +27,7 @@
                         <?php do_action(ERSTELLBAR_SLUG. '_before_slick_slider_image'); ?>
                         <a href="<?php echo $module->permalink(get_post()); ?>">
                         <?php the_post_thumbnail(); ?>
+                        </a>
 
                         <?php do_action(ERSTELLBAR_SLUG. '_before_slick_slider_title'); ?>
                         <a href="<?php echo $module->permalink(get_post()); ?>">
