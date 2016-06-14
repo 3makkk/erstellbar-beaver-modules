@@ -32,7 +32,7 @@
                         <?php do_action(ERSTELLBAR_SLUG. '_before_slick_slider_title'); ?>
                         <a href="<?php echo $module->permalink(get_post()); ?>">
                         <h5 class="erstellbar-slides-title"><?php the_title()?></h5>
-
+                        </a>
                         <?php do_action(ERSTELLBAR_SLUG. '_before_slick_slider_content'); ?>
 
                         <?php the_content()?>
