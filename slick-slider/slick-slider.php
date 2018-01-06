@@ -63,6 +63,10 @@ class ErstellbarSlickSlider extends FLBuilderModule {
         
         return apply_filters(ERSTELLBAR_SLUG. '_slider_item_permalink', get_permalink($post), $post, $this->settings);
     }
+
+    public function toBool($value) {
+        return boolval($value);
+    }
 }
 
 /**

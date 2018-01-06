@@ -1,1 +1,0 @@
-jQuery('.erstellbar-slider').slick();

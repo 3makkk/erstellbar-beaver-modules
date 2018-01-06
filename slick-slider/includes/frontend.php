@@ -43,7 +43,7 @@
         <?php endif;
         wp_reset_postdata(); ?>
     <?php else: ?>
-        <?php foreach ($settings->custom_slides as $custom_slide): ?>
+        <?php foreach ($settings->custom as $custom_slide): ?>
             <div class="erstellbar-slides">
                 <?php echo $custom_slide ?>
             </div>
