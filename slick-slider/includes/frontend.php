@@ -16,7 +16,7 @@
     <?php if ($settings->slide_content_type === 'images'): ?>
         <?php foreach ($settings->images as $image_id): ?>
             <div class="erstellbar-slides">
-                <?php echo wp_get_attachment_image($image_id, 'large') ?>
+                <?php echo wp_get_attachment_image($image_id, 'original') ?>
             </div>
         <?php endforeach ?>
     <?php elseif($settings->slide_content_type == 'posts'): ?>
